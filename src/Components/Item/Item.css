@@ -1,0 +1,31 @@
+.table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.table-box-container {
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center; /* Adjust as needed */
+  gap: 5px;
+  border: 1px solid #ff4545;
+  padding: 3px;
+}
+
+.table-box {
+  flex: 0 1 calc(20% - 5px); /* 20% width with 5px gap between items */
+  text-align: center;
+  background-color: #ffeded;
+  padding: 5px;
+  border: 1px solid #ff4545;
+  cursor: pointer;
+}
+
+.table-title {
+  text-align: center;
+  border: 1px solid #ff4545;
+  width: 98.6%; /* Ensure the title spans the entire width */
+}

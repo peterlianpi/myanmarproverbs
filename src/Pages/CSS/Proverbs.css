@@ -1,0 +1,39 @@
+.proverbs-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 5px;
+  overflow-y: scroll;
+}
+.proverbs-container button {
+  width: 160px;
+  margin: 10px auto;
+}
+
+.proverbs-container h1 {
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 10px;
+}
+.proverbs-container ul {
+  cursor: pointer;
+}
+.proverbs-container li {
+  font-size: 16px;
+  line-height: 1.1;
+}
+.proverbs-container ul:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  .proverbs-container {
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    margin: 10px auto;
+    height: 100vh;
+
+    overflow-y: scroll;
+  }
+}

@@ -1,0 +1,28 @@
+.back-button {
+  margin: 20px auto;
+  height: 40px;
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.back-button:hover {
+  background-color: #45a049;
+}
+.table-main-container {
+  display: flex;
+  max-width: 800px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  margin: 40px auto;
+}
+.table-main-container h1 {
+  font-size: 24px;
+}
